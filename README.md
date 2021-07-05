@@ -1,7 +1,7 @@
 # Minesweeper game
 Game of Minesweeper with special features.<br>
-This is one of the first projects that I created using HTML, Javascript and CSS.
-
+<br>
+This is my first project in HTML, JavaScript, and CSS.
 ## Game Rules
 The board is divided into cells, with mines randomly distributed.<br>
 To win, you need to open all the cells. The number on a cell shows the number of mines adjacent to it.<br>
