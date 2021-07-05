@@ -1,0 +1,125 @@
+.container {
+  border: 3px solid black;
+}
+.level-panel span {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  padding: 5px;
+  margin: 5px;
+}
+
+.level-panel {
+  background-color: royalblue;
+  border-bottom: 3px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.level-panel button {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 5px 5px;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 500ms linear;
+}
+.level-panel button:hover {
+background-color: steelblue;
+}
+
+.time-panel {
+  display: inline-block;
+  border: 3px solid;
+  font-size: x-large;
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+}
+.time-panel .header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.btn-reset {
+  margin: 10px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.hint-panel{
+  border: 1px solid;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 105px;
+  
+}
+.hint-panel .header{
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.hint-count{
+  margin-top: 10px;
+}
+
+.life-panel{
+  border: 1px solid;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 105px;
+}
+.life-panel .header{
+  display: block;
+  text-decoration: underline;
+  margin: 18px;
+}
+
+.btn-reset {
+  margin: 0px 20px;
+  background-color: transparent;
+  font-size: xx-large;
+  padding: 1px;
+  width: 60px;
+  height: 60px;
+}
+
+.box-right{
+  display: inline-block;
+}
+
+
+
+table {
+  border-spacing: 0px;
+  margin: 10px;
+}
+td {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  min-width: 30px;
+  color: white;
+  box-shadow: inset 0px 0px 22px 23px #868750;
+  background-color: white;
+  transition: box-shadow 300ms linear, color 400ms linear;
+}
+
+.shown {
+  box-shadow: inset 0px 0px 10px 0px #868750;
+  color: black;
+  background-color: rgb(236, 222, 174);
+}
+

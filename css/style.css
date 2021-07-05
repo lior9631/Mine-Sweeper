@@ -1,0 +1,253 @@
+body {
+  background-image: url("../img/background.jpg");
+}
+
+.container {
+  position: relative;
+  border: 3px solid black;
+  width: 550px;
+  margin: auto;
+  background-color: honeydew;
+}
+
+.level-panel span {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  padding: 5px;
+  margin: 5px;
+}
+
+.level-panel {
+  background-color: royalblue;
+  border-bottom: 3px solid black;
+  padding: 10px;
+}
+.level-panel button {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 5px 5px;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 500ms linear;
+}
+.best-time {
+  background-color: gold;
+  height: 30px;
+  padding: 2px;
+}
+.best-time h3 {
+  margin: 5px 0 0 0;
+}
+.level-panel button:hover {
+  background-color: steelblue;
+}
+.mess-box {
+  border-bottom: 3px solid;
+  margin-bottom: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+
+
+}
+
+.time-panel {
+  display: inline-block;
+  border: 3px solid;
+  font-size: x-large;
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  background-color: lightskyblue;
+}
+.time-panel .header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+.box-top {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  height: 100px;
+}
+.hint-panel {
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  margin-left: 25px;
+  margin-right: 50px;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  width: 130px;
+  height: 80px;
+  background-color: lightskyblue;
+}
+.hint-panel .header {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.hint-count {
+  margin-top: 10px;
+}
+.hint-count button {
+  cursor: pointer;
+  box-shadow: inset 0px 0px 33px 12px rgba(240, 240, 110, 1);
+  transition: background-color 300ms linear;
+}
+.hint-clicked {
+  background-color: yellow;
+}
+
+.life-panel {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  border: 1px solid;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  width: 130px;
+  height: 80px;
+  padding: 10px;
+  background-color: lightskyblue;
+}
+.life-panel .header {
+  display: block;
+  text-decoration: underline;
+  margin: 5px;
+}
+
+.btn-reset {
+  margin: 0px 20px;
+  background-color: transparent;
+  font-size: xx-large;
+  padding: 1px;
+  width: 60px;
+  height: 60px;
+}
+
+.mines-panel {
+  display: inline-block;
+  border: 3px solid;
+  font-size: x-large;
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  background-color: lightskyblue;
+}
+.mines-panel .header {
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+table {
+  border: 5px solid black;
+  border-radius: 5px;
+  border-spacing: 0px;
+  margin: 0px 10px 10px 10px;
+}
+td {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  min-width: 30px;
+  color: white;
+  box-shadow: inset 0px 0px 22px 23px #868750;
+  background-color: white;
+  transition: box-shadow 300ms linear, color 400ms linear;
+}
+
+.shown {
+  box-shadow: inset 0px 0px 10px 0px #868750;
+  color: black;
+  background-color: rgb(236, 222, 174);
+}
+
+.support-life {
+  display: none;
+  border: 5px dotted yellowgreen;
+  position: absolute;
+  top: 350px;
+  left: 95px;
+  padding: 25px;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+  background-color: black;
+  color: greenyellow;
+  box-shadow: inset 0px 0px 51px -13px rgba(161, 230, 147, 1);
+}
+.Special {
+  position: absolute;
+  left: 225px;
+  top: 0px;
+}
+.Special button {
+  margin-right: 7px;
+  margin-top: 0px;
+  border: 2px solid;
+  border-radius: 3px;
+  width: 90px;
+  height: 55px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn-manually {
+  background-color: green;
+  display: block;
+}
+
+.box-safe span {
+  font-weight: bold;
+}
+
+.btn-undo {
+  background-color: crimson;
+  display: block;
+  margin-bottom: 5px;
+}
+.btn-safe {
+  margin-bottom: 0px;
+  background-color: forestgreen;
+  display: block;
+}
+.btn-hide {
+  display: none;
+}
+
+.safe-cell {
+  background-color: red;
+  box-shadow: 0px 0px 0px -200px rgba(255, 255, 255, 0);
+}
+
+.btn-reset {
+  border: 3px solid;
+  position: relative;
+  bottom: 7px;
+  cursor: pointer;
+  background-color: white;
+}
