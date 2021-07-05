@@ -9,4 +9,4 @@ Using this information, you can determine cells that are safe, and cells that co
 Cells suspected of being mines can be marked with a flag using the right mouse button.
 
 ## Link
-[You can access the game by clicking here](https://lior9631.github.io/Mine-Sweeper/)
+[You can access the game by clicking here](https://lior9631.github.io/Minesweeper/)
